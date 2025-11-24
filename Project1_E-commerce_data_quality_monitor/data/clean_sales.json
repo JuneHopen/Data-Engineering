@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "export_timestamp": "2025-11-19T15:53:02.143595",
+    "total_records": 4,
+    "data_source": "daily_sales.csv",
+    "processing_version": "1.0"
+  },
+  "sales_data": [
+    {
+      "order_id": "ORD-001",
+      "customer_name": "Alice Johnson",
+      "product": "Laptop",
+      "price": 999.99,
+      "quantity": 1,
+      "total_amount": 999.99,
+      "category": "Electronics",
+      "order_date": "2024-03-15",
+      "region": "New York",
+      "processed_date": "2025-11-19T15:53:02.143565"
+    },
+    {
+      "order_id": "ORD-002",
+      "customer_name": "Bob Smith",
+      "product": "Wireless Mouse",
+      "price": 25.99,
+      "quantity": 2,
+      "total_amount": 51.98,
+      "category": "Electronics",
+      "order_date": "2024-03-16",
+      "region": "Boston",
+      "processed_date": "2025-11-19T15:53:02.143586"
+    },
+    {
+      "order_id": "ORD-003",
+      "customer_name": "Charlie Brown",
+      "product": "Programming Book",
+      "price": 35.5,
+      "quantity": 1,
+      "total_amount": 35.5,
+      "category": "Books",
+      "order_date": "2024-03-15",
+      "region": "Chicago",
+      "processed_date": "2025-11-19T15:53:02.143590"
+    },
+    {
+      "order_id": "ORD-007",
+      "customer_name": "Frank Miller",
+      "product": "Desk Lamp",
+      "price": 45.99,
+      "quantity": 3,
+      "total_amount": 137.97,
+      "category": "Electronics",
+      "order_date": "2024-03-18",
+      "region": "Miami",
+      "processed_date": "2025-11-19T15:53:02.143592"
+    }
+  ]
+}

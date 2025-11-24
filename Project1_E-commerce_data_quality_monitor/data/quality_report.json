@@ -1,0 +1,70 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-11-19T15:53:02.144170",
+    "data_source": "daily_sales.csv",
+    "report_type": "data_quality"
+  },
+  "summary": {
+    "total_records_processed": 7,
+    "valid_records": 4,
+    "invalid_records": 3,
+    "success_rate": 57.14,
+    "data_quality_grade": "E"
+  },
+  "validation_details": {
+    "error_breakdown": {
+      "customer_name empty": 1,
+      "quantity invalid": 1,
+      "order_date invalid": 1
+    },
+    "invalid_records": [
+      {
+        "order_id": "ORD-004",
+        "error_reasons": "customer_name empty",
+        "original_data": {
+          "order_id": "ORD-004",
+          "customer_name": "",
+          "product": "Monitor",
+          "price": "299.99",
+          "quantity": "1",
+          "order_date": "2024-03-17",
+          "region": "New York",
+          "rejection_reasons": "customer_name empty"
+        }
+      },
+      {
+        "order_id": "ORD-005",
+        "error_reasons": "quantity invalid",
+        "original_data": {
+          "order_id": "ORD-005",
+          "customer_name": "Diana Davis",
+          "product": "Notebook",
+          "price": "5.99",
+          "quantity": "-2",
+          "order_date": "2024-03-16",
+          "region": "Seattle",
+          "rejection_reasons": "quantity invalid"
+        }
+      },
+      {
+        "order_id": "ORD-006",
+        "error_reasons": "order_date invalid",
+        "original_data": {
+          "order_id": "ORD-006",
+          "customer_name": "Eve Wilson",
+          "product": "Keyboard",
+          "price": "75.50",
+          "quantity": "1",
+          "order_date": "2024-02-30",
+          "region": "Los Angeles",
+          "rejection_reasons": "order_date invalid"
+        }
+      }
+    ]
+  },
+  "recommendations": [
+    "Improve data entry validation for customer names",
+    "Add quantity validation in sales system",
+    "Fix date picker in order management system"
+  ]
+}

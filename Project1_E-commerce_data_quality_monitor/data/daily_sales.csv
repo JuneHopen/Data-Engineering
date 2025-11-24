@@ -1,0 +1,8 @@
+order_id,customer_name,product,price,quantity,order_date,region
+ORD-001,Alice Johnson,Laptop,999.99,1,2024-03-15,New York
+ORD-002,Bob Smith,Wireless Mouse,25.99,2,2024-03-16,Boston
+ORD-003,Charlie Brown,Programming Book,35.50,1,2024-03-15,Chicago
+ORD-004,,Monitor,299.99,1,2024-03-17,New York
+ORD-005,Diana Davis,Notebook,5.99,-2,2024-03-16,Seattle
+ORD-006,Eve Wilson,Keyboard,75.50,1,2024-02-30,Los Angeles
+ORD-007,Frank Miller,Desk Lamp,45.99,3,2024-03-18,Miami

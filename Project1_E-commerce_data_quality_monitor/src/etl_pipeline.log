@@ -1,0 +1,15 @@
+2025-11-12 18:56:50,922 - ERROR - File ../data/daily_sasles.csv does not exist
+2025-11-12 18:56:50,922 - ERROR - No data extracted. Pipeline stopped
+2025-11-12 18:56:56,511 - INFO - Successfully extracted 7 records
+2025-11-12 18:56:56,513 - INFO - valid records: 4
+2025-11-12 18:56:56,513 - INFO - invalid records: 3
+2025-11-12 18:56:56,513 - INFO -  - ORD-004 : customer_name empty
+2025-11-12 18:56:56,513 - INFO -  - ORD-005 : quantity invalid
+2025-11-12 18:56:56,513 - INFO -  - ORD-006 : order_date invalid
+2025-11-12 18:56:56,514 - INFO - Transformed 4 records
+2025-11-12 18:56:56,514 - INFO - Step 3. Loading data...
+2025-11-12 18:56:56,515 - INFO - Successfully loaded 4 records
+2025-11-12 18:56:56,515 - INFO - Step 4. Generating report...
+2025-11-12 18:56:56,516 - INFO - === PIPELINE COMPLETED ===
+2025-11-12 18:56:56,517 - INFO - Data Quality Score: 57.14% (Grade E) 
+2025-11-12 18:56:56,517 - INFO - Valid: 4 records | Invalid: 3
