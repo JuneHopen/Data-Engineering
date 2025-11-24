@@ -1,0 +1,8 @@
+patient_id,patient_name,age,gender,diagnosis,admission_date,discharge_date,blood_pressure,temperature,treatment_cost,doctor
+PT-001,Alice Johnson,45,F,Hypertension,2024-03-10,2024-03-12,120/80,36.5,2500000,Dr. Smith
+PT-002,Bob Wilson,72,M,Diabetes,2024-03-11,2024-03-15,140/90,37.1,1800000,Dr. Brown
+PT-003,,35,M,Asthma,2024-03-12,2024-02-30,110/70,36.8,1200000,Dr. Lee
+PT-004,Carol Davis,28,F,Influenza,2024-03-13,2024-03-16,115/75,38.5,-500000,Dr. Wilson
+PT-005,David Miller,150,M,Arthritis,2024-03-14,2024-03-18,130/85,36.9,3000000,Dr. Garcia
+PT-006,Eva Martinez,42,F,Migraine,2024-01-32,2024-03-17,125/80,37.2,950000,Dr. Kim
+PT-007,Frank Thompson,38,M,Bronchitis,2024-03-15,,118/72,37.8,1650000,Dr. Patel

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "export_timestamp": "2025-11-20T20:11:14.684157",
+    "total_record": 2,
+    "data_source": "patient_record.csv",
+    "facility_name": "HealthCare Plus Hospital",
+    "department": "Medical Records",
+    "data_sensitivity": "Confidential - HIPAA Protected",
+    "processing_version": "1.0",
+    "data_retention_years": 7
+  },
+  "patient_records": [
+    {
+      "patient_id": "PT-001",
+      "patient_name": "Alice Johnson",
+      "demographics": {
+        "age": 45,
+        "age_group": "Adult",
+        "gender": "F"
+      },
+      "medical_info": {
+        "diagnosis": "Hypertension",
+        "blood_pressure": "120/80",
+        "bp_category": "Elevated",
+        "temperature": 36.5,
+        "temperature_status": "Normal"
+      },
+      "treatment_details": {
+        "admission_date": "2024-03-10",
+        "discharge_date": "2024-03-12",
+        "length_of_stay": 2,
+        "doctor": "Dr. Smith",
+        "treatment_cost": 2500000.0,
+        "cost_category": "High"
+      },
+      "processing_info": {
+        "processed_at": "2025-11-20T20:11:14.684249",
+        "data_quality_score": "Excellent"
+      }
+    },
+    {
+      "patient_id": "PT-002",
+      "patient_name": "Bob Wilson",
+      "demographics": {
+        "age": 72,
+        "age_group": "Senior",
+        "gender": "M"
+      },
+      "medical_info": {
+        "diagnosis": "Diabetes",
+        "blood_pressure": "140/90",
+        "bp_category": "High Stage 2",
+        "temperature": 37.1,
+        "temperature_status": "Normal"
+      },
+      "treatment_details": {
+        "admission_date": "2024-03-11",
+        "discharge_date": "2024-03-15",
+        "length_of_stay": 4,
+        "doctor": "Dr. Brown",
+        "treatment_cost": 1800000.0,
+        "cost_category": "Medium"
+      },
+      "processing_info": {
+        "processed_at": "2025-11-20T20:11:14.684259",
+        "data_quality_score": "Excellent"
+      }
+    }
+  ]
+}
